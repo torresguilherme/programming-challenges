@@ -96,7 +96,7 @@ These are typically topics you'd be introduced to in the first or second year of
 
 - **Hard**: solve a system of congruences with the Chinese remainder theorem
 
-- **Hard**: Lucas-Lehmer primality test
+- **Hard**: first-order diophantine equation solver
 
 - **Extra**: [Project Euler 651](https://projecteuler.net/problem=651)
 
