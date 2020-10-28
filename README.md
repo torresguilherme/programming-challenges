@@ -102,7 +102,47 @@ These are typically topics you'd be introduced to in the first or second year of
 
 ### Linear Algebra
 
+- **Easy**: vector lerp
+
+- **Easy**: vector dot and cross product
+
+- **Easy**: matrix multiplication
+
+- **Average**: linear algebra library including the operations above, plus affine transformations (rotation, translation, scale)
+
+- **Average**: matrix trace and determinants
+
+- **Average**: linear system solver with Gaussian elimination
+
+- **Hard**: SVD operator
+
+- **Hard**: linear algebra library including the operations above, plus projective transformations
+
+- **Hard**: conic section area calculator
+
+- **Extra**: optimize matrix multiplication with concurrence
+
 ### Numerical Analysis
+
+- **Easy**: linear interpolation for a set of points
+
+- **Easy**: basic numerical integration (divide the function area in rectangles)
+
+- **Easy**: linear regression
+
+- **Average**: find the n-root of a number
+
+- **Average**: LU factorization of a matrix
+
+- **Average**: approximate the first 1000 digits of PI
+
+- **Hard**: numerical integration using Simpson's rule
+
+- **Hard**: Hermite interpolation for a set of points
+
+- **Hard**: choose a numerical ODE method and implement it
+
+- **Extra**: choose a numerical PDE method and implement it
 
 ### Probability and Statistics
 
