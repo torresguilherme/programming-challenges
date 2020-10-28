@@ -26,11 +26,79 @@ These are typically topics you'd be introduced to in the first or second year of
 
 ### Algorithms
 
+- **Easy**: count how many times a character appears in a string. Bonus points for supporting unicode.
+
+- **Easy**: Bubble Sort
+
+- **Easy**: binary search
+
+- **Average**: crack a DES-encrypted password (up to 6 characters) by brute forcing it
+
+- **Average**: Quick Sort
+
+- **Average**: Dijkstra's algorithm
+
+- **Hard**: DFA-based string matching
+
+- **Hard**: External Quicksort (use binary temporary files), test it with 100k+ elements
+
+- **Hard**: Given a grid map with walls, empty spaces and portals with a given destination on the map, which disappear once you enter them, write a modified version of Dijkstra's algortihm to find the shortest path between two positions in the grid.
+
+- **Extra**: External Quicksort, but multithreaded. Make some scheduling to make sure there are no race conditions.
+
 ### Computer Architecture
+
+- **Easy**: use an HDL to design a chip that does addition and multiplication.
+
+- **Easy**: use an HDL to design a chip that with an operation that decides if a number is prime or not (don't worry about complexity)
+
+- **Average**: pick an assembly language and make an assembler for it. Ignore the memory load/store instructions, just work with immediates
+
+- **Average**: design a CPU for your assembly language in an HDL
+
+- **Hard**: add memory instructions and caching.
+
+- **Hard**: make a parallel instruction pipeline for the your CPU (fetch -> decode -> execute -> write-back)
+
+- **Extra**: make it multicore. Remember to enforce the cache coherence.
 
 ### Data Structures
 
+- **Easy**: convert an array of numbers to a heap tree
+
+- **Easy**: convert an array of numbers to a binary search tree (not necessarity balanced)
+
+- **Average**: a tree-based dictionary that searches for words in a text and sees if they're being repeated. If one word is missing in the tree, add it iteratively
+
+- **Average**: a program that stores strings in a way that would make them easy to search for. Use a hash and solve conflicts with arrays.
+
+- **Hard**: same as above, but use a balanced binary tree to solve the conflicts instead, so the conflict search is O(log n)
+
+- **Hard**: do the dictionary, but use radix trees instead
+
+- **Extra**: manage files in a directory with a B-tree. Implement search, insertion and deletion
+
 ### Discrete Mathematics and Algebra
+
+- **Easy**: iterative factorial function (don't use recursion)
+
+- **Easy**: Euclid's algorithm (find the greatest common divisor of two integers)
+
+- **Easy**: find out if a graph is connected
+
+- **Average**: Hamiltonian path in a graph
+
+- **Average**: find out if the input integer is prime using Fermat's little theorem
+
+- **Average**: find out a given integer's N partitions. In other words, find out all combinations of N distinct integers that sum up to the input integer.
+
+- **Hard**: RSA encoder and decoder (get key as input)
+
+- **Hard**: solve a system of congruences with the Chinese remainder theorem
+
+- **Hard**: Lucas-Lehmer primality test
+
+- **Extra**: [Project Euler 651](https://projecteuler.net/problem=651)
 
 ### Linear Algebra
 
