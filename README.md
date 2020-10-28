@@ -192,17 +192,87 @@ Those topics are usually opt-in. That means they're not for everyone and some of
 
 ### Computer Vision and Image Processing
 
-### Emulation
+### Cryptography and Security
+
+### Exact Exponential Algorithms and Parametrized Complexity
+
+- **Easy**: solve the Travelling Salesman Problem with a non-combinatorial algorithm
+
+- **Easy**: naive solution for the independent set problem
+
+- **Average**: implement an algorithm that solves graph coloring with a complexity lesser than O(2^n) (yes, it's possible. remember that unless NP = P, the complexity must be exponential, but the basis can be a number k such that 1 < k < 2)
+
+- **Average**: given a vertex covering problem instance, find the complexity of the kernel and solve it with an FPT algorithm
+
+- **Hard**: solve the d-hitting set with a sunflower-based kernel
+
+- **Hard**: pick an NP-hard problem of choice and implement a treewidth-based FPT algorithm for it
+
+- **Extra**: develop a randomized algorithm for the vertex cover problem. You should use a FPT transformation and calculate a number of executions such that the probability of your algorithm failing is less than the probability of a meteor destroying your computer during the execution (you can assume that number is, say, 0.000001). tip: use the property: 1 + x <= exp(x) for every x >= 0.
 
 ### Games
 
 ### Graphics
 
-### Heuristic Optimization and Meta-heuristics
+- **Easy**: a triangle in your graphics API of choice. When you click the screen, rotate the triangle clock-wise around the cursor
+
+- **Easy**: spinning 3D cube. Shading is optional
+
+- **Easy**: render a teapot in a scene with a point light. Use a Phong BRDF, with specular reflection. Bonus: use both flat, Gouraud and Phong shading, and compare the results
+
+- **Average**: animate a character with shape interpolation
+
+- **Average**: a brute-force ray tracer. Make ray-sphere and ray-triangle intersection (note: this is embarassingly parallel, and if you don't make it concurrent, your program will be orders of magnitude slower)
+
+- **Average**: pick a real-time global illumination method of choice and render a scene with it
+
+- **Hard**: GPU space-optimized ray tracer.
+
+- **Hard**: CPU path tracer
+
+- **Hard**: photon mapper
+
+- **Extra**: GPU path tracer
+
+### Metaheuristics
+
+- **Easy**: find a "decent" solution to the Travellng Salesman Problem by searching the space for local minima
+
+- **Easy**: given a set of input vectors A_i and scalars b_i, use a genetic algorithm to estimate a function f such that f(A_i) ~= b_i. Use as many operators as you please.
+
+- **Average**: approximation algorithm of Christofides and Serdyukov for the Travelling Salesman Problem
+
+- **Average**: solve graph coloring with a Taboo search
+
+- **Hard**: general simulated annealing solver 
+
+- **Hard**: pick a multiobjective optimization problem and a metaheurisic of choice, implement it from scratch
+
+- **Extra**: general heuristic multiobjective solver
 
 ### Information Theory
 
 ### Simulations
+
+- **Easy**: make a 2D breakout game, brute force collisions
+
+- **Easy**: space-optimized raycast. 
+
+- **Easy**: Conway's Game of Life
+
+- **Average**: 2D Noita-style particle simulator using cellular automata
+
+- **Average**: Foucault pendulum
+
+- **Average**: FLIP fluid simulation without incompressibility
+
+- **Hard**: FLIP with incompressibility
+
+- **Hard**: full real-time physics engine. Simulate bouncy materials, elastic properties and mechanical energy
+
+- **Hard**: a simple molecular dynamics simulator 
+
+- **Extra**: celestial mechanics engine
 
 # Observations
 
