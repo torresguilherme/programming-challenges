@@ -146,6 +146,26 @@ These are typically topics you'd be introduced to in the first or second year of
 
 ### Probability and Statistics
 
+- **Easy**: calculate the mean, median, variance and standard deviation for a given array of samples
+
+- **Easy**: combinatorial probability calculator
+
+- **Easy**: given a function, find out numerically if it's a PDF (probability density function)
+
+- **Average**: Poisson distribution calculator
+
+- **Average**: make a tiny US election poll simulator, given a number of N states where x% are republicans and y% are democrats, given a random K people sample for each state, output the probability of each state having the most republicans
+
+- **Average**: given a shape in a given rectangular area, use a Monte Carlo method to determine the approximate area of this shape
+
+- **Hard**: given a distribution, calculate the Bayes estimator
+
+- **Hard**: general regression analysis software
+
+- **Hard**: graphical conditional probability calculator. Insert nodes with given probabilities and calculate the probability of a given ocurrence
+
+- **Extra**: make a US election poll simulator. Assume that each state has 10 million votes, "interview" K voters from each state and find out if they're democrats or republicans. Calculate the estimated chance of a democrat or republican victory. Use your disk to help with the large volume of data. 
+
 ### Theory of Computation and Formal Languages
 
 ## Advanced topics
