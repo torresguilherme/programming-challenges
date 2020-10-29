@@ -198,7 +198,7 @@ Those topics are usually opt-in. That means they're not for everyone and some of
 
 - **Easy**: solve the Travelling Salesman Problem with a non-combinatorial algorithm
 
-- **Easy**: naive solution for the independent set problem
+- **Easy**: knapsack problem with dynamic programming
 
 - **Average**: implement an algorithm that solves graph coloring with a complexity lesser than O(2^n) (yes, it's possible. remember that unless NP = P, the complexity must be exponential, but the basis can be a number k such that 1 < k < 2)
 
@@ -222,15 +222,15 @@ Those topics are usually opt-in. That means they're not for everyone and some of
 
 - **Average**: animate a character with shape interpolation
 
-- **Average**: a brute-force ray tracer. Make ray-sphere and ray-triangle intersection (note: this is embarassingly parallel, and if you don't make it concurrent, your program will be orders of magnitude slower)
+- **Average**: brute-force CPU ray tracer. Make ray-sphere and ray-triangle intersection (note: this is embarassingly parallel, and if you don't make it concurrent, your program will be orders of magnitude slower)
 
-- **Average**: pick a real-time global illumination method of choice and render a scene with it
+- **Average**: PBR shader. Bonus: add ambient occlusion
 
-- **Hard**: GPU space-optimized ray tracer.
+- **Hard**: pick a real-time global illumination method of choice and render a scene with it
 
-- **Hard**: CPU path tracer
+- **Hard**: space-optimized GPU ray tracer.
 
-- **Hard**: photon mapper
+- **Hard**: real-time terrain editor. Use an implicit modelling algorithm like dual contouring
 
 - **Extra**: GPU path tracer
 
